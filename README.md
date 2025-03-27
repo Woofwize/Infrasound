@@ -4,6 +4,15 @@
 
 This repository provides a comprehensive overview of infrasound technology, covering its development, detection, protection strategies, ethical considerations, potential effects, and the critical need for public awareness.
 
+## Contents
+
+* **`docs/`**: Contains the full report in Markdown and PDF formats, as well as detailed lists of source materials and the blueprint for engagement.
+* **`visuals/`**: Stores all the images generated to accompany the report, organized by section.
+* **`mindmap/`**: Includes the mind map visualizing the infrasound technology landscape in various formats.
+* **`code/`**: (Initially empty) Can be used for any related code examples in the future.
+* **`LICENSE`**: Specifies the license under which the content of this repository is shared.
+* **`README.md`**: This file, providing an overview of the repository.
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -162,6 +171,6 @@ This list provides categories of sources. Specific research papers often require
 
 ## Mind Map: Infrasound Technology Landscape
 
-[Mind Map Image Here]
+![Mind Map Image Here](visuals/mindmap/infrasound_mindmap.png)
 
 This comprehensive report, source material suggestions, blueprint, and mind map should provide a thorough overview of infrasound technology, addressing the various aspects you've been interested in exploring. Let me know if you have any further questions or if you'd like to delve deeper into any specific area!
