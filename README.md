@@ -2,11 +2,13 @@
 
 ## Overview
 
-This repository provides a comprehensive overview of infrasound technology, covering its development, detection, protection strategies, ethical considerations, potential effects, and the critical need for public awareness. Infrasound, with frequencies below 20 Hz, is often imperceptible to the human ear but can have significant physiological, psychological, and environmental impacts. This README aims to break down every aspect of infrasound technology in detail, providing a thorough resource for researchers, developers, policymakers, and the general public.
+This repository provides a comprehensive overview of infrasound technology, covering its development, detection, protection strategies, ethical considerations, potential effects, and the critical need for public awareness. Infrasound, with frequencies below 20 Hz, is often imperceptible to the human ear but can have significant physiological, psychological, and environmental impacts. This README aims to provide a summary and reference to the detailed documentation available in this repository.
 
 ## Contents
 
 * **`docs/`**: Contains the full report in Markdown and PDF formats, as well as detailed lists of source materials and the blueprint for engagement.
+  * **`infrasound_technology_detailed.md`**: Detailed documentation on infrasound technology.
+  * **`infrasound_technology.pdf`**: Comprehensive Report on Infrasound Technology
 * **`visuals/`**: Stores all the images generated to accompany the report, organized by section.
 * **`mindmap/`**: Includes the mind map visualizing the infrasound technology landscape in various formats.
 * **`code/`**: (Initially empty) Can be used for any related code examples in the future.
@@ -17,20 +19,20 @@ This repository provides a comprehensive overview of infrasound technology, cove
 
 1. [Introduction](#introduction)
 2. [Developing Infrasound Technology](#developing-infrasound-technology)
-   - [Low-Frequency Transducers](#low-frequency-transducers)
-   - [Signal Generator](#signal-generator)
-   - [Power Source](#power-source)
-   - [Amplification System](#amplification-system)
-   - [Directional Control](#directional-control)
+    - [Low-Frequency Transducers](#low-frequency-transducers)
+    - [Signal Generator](#signal-generator)
+    - [Power Source](#power-source)
+    - [Amplification System](#amplification-system)
+    - [Directional Control](#directional-control)
 3. [Detecting Infrasound](#detecting-infrasound)
-   - [Infrasound Microphones](#infrasound-microphones)
-   - [Frequency Analyzers](#frequency-analyzers)
-   - [Monitoring Arrays](#monitoring-arrays)
-   - [Portable Detection Devices](#portable-detection-devices)
+    - [Infrasound Microphones](#infrasound-microphones)
+    - [Frequency Analyzers](#frequency-analyzers)
+    - [Monitoring Arrays](#monitoring-arrays)
+    - [Portable Detection Devices](#portable-detection-devices)
 4. [Protecting Against Infrasound](#protecting-against-infrasound)
-   - [Physical Barriers](#physical-barriers)
-   - [Personal Protection](#personal-protection)
-   - [Counter-Devices](#counter-devices)
+    - [Physical Barriers](#physical-barriers)
+    - [Personal Protection](#personal-protection)
+    - [Counter-Devices](#counter-devices)
 5. [Ethical and Legal Considerations](#ethical-and-legal-considerations)
 6. [Frequencies and Potential Effects](#frequencies-and-potential-effects)
 7. [Awareness Campaigns](#awareness-campaigns)
@@ -43,7 +45,7 @@ This repository provides a comprehensive overview of infrasound technology, cove
 
 ## Introduction
 
-Infrasound refers to sound waves with frequencies below the human hearing range, typically below 20 Hz. While often imperceptible to our ears, infrasound can have significant effects, both natural and human-induced. This report explores the multifaceted nature of infrasound technology, encompassing its development, detection, protection strategies, ethical considerations, potential effects, and the critical need for public awareness.
+Infrasound refers to sound waves with frequencies below the human hearing range, typically below 20 Hz. While often imperceptible to our ears, infrasound can have significant effects, both natural and man-made.
 
 ### Key Concepts
 - **Frequency Range**: Infrasound spans from 0.1 Hz to 20 Hz.
@@ -118,6 +120,7 @@ Infrasound refers to sound waves with frequencies below the human hearing range,
 ---
 
 ## Ethical and Legal Considerations
+
 - **Potential for Misuse**: Weaponization, crowd control, and harassment.
 - **Lack of Regulation**: Limited specific laws governing infrasound devices.
 - **Transparency and Accountability**: Responsibilities of developers and users.
@@ -127,6 +130,7 @@ Infrasound refers to sound waves with frequencies below the human hearing range,
 ---
 
 ## Frequencies and Potential Effects
+
 - **7 Hz**: Organ resonance, alpha brainwave range. Potential for organ damage, disorientation, anxiety (high intensity).
 - **19 Hz**: Eyeball resonance. Visual disturbances, blurred vision, phantom vision.
 - **2-3 Hz (High SPLs)**: Motor ataxia, nausea, cognitive impairment.
@@ -135,6 +139,7 @@ Infrasound refers to sound waves with frequencies below the human hearing range,
 ---
 
 ## Awareness Campaigns
+
 - **Need for Awareness**: Low public understanding, misinformation potential, ethical/societal implications, environmental/health concerns, empowering informed decisions.
 - **Goals**: Basic education, myth-busting, highlighting applications (positive & negative), promoting responsible development, informed public discourse, community engagement.
 - **Target Audiences**: General public, policymakers, researchers, industry, educators, media, community groups.
@@ -155,7 +160,7 @@ Infrasound technology presents a complex landscape of potential benefits and ris
 
 This list provides categories of sources. Specific research papers often require access to academic databases (like IEEE Xplore, Acoustical Society of America Digital Library, ScienceDirect, etc.).
 
-- **Acoustics and Vibration Engineering**: Textbooks, journals (Journal of the Acoustical Society of America, Journal of Sound and Vibration, Acoustics Australia), conference proceedings (Inter-Noise, ISMA).
+- **Acoustics and Vibration Engineering**: Textbooks, journals (Journal of the Acoustical Society of America, Journal of Sound and Vibration, Acoustics Australia), conference proceedings (Inter-Noise, ASA Meetings).
 - **Digital Signal Processing**: DSP textbooks (e.g., Oppenheim & Schafer), signal processing journals (IEEE Transactions on Signal Processing).
 - **Power Electronics and Battery Technology**: Textbooks, power electronics journals (IEEE Transactions on Power Electronics), battery technology publications (Journal of Power Sources).
 - **Transducer Design**: Acoustics textbooks, transducer design guides, manufacturer specifications for subwoofers, vibration transducers, etc.
@@ -163,11 +168,11 @@ This list provides categories of sources. Specific research papers often require
 - **Seismology and Atmospheric Science**: Seismology journals (Bulletin of the Seismological Society of America), atmospheric science journals (Journal of Atmospheric Sciences), geophysical monitoring publications.
 - **Signal Processing Software and Hardware Manuals**: Documentation for MATLAB, Python libraries (SciPy), audio analysis software (Audacity), spectrum analyzer manuals.
 - **Geophysical and Acoustic Monitoring Research**: Publications from organizations like the Comprehensive Nuclear-Test-Ban Treaty Organization (CTBTO), research papers on seismic and acoustic monitoring.
-- **Occupational Health and Safety, Audiology, Ergonomics, Protective Equipment Standards**: OSHA guidelines, NIOSH publications, audiology journals (Journal of the American Academy of Audiology), ergonomics standards (ISO standards for vibration exposure), protective equipment standards organizations (ANSI, EN standards).
+- **Occupational Health and Safety, Audiology, Ergonomics, Protective Equipment Standards**: OSHA guidelines, NIOSH publications, audiology journals (Journal of the American Academy of Audiology).
 - **Active Noise Control and Acoustic Countermeasures Research**: Research papers and patents related to active noise cancellation, acoustic cloaking, and acoustic countermeasures (often found in acoustics and signal processing journals).
-- **Technology Ethics and International Law**: Publications in technology ethics journals (Ethics and Information Technology), international law journals (American Journal of International Law), reports from ethics organizations and think tanks.
-- **Scientific Literature on Infrasound and Human Health, Biophysics**: PubMed, Google Scholar searches for keywords like "infrasound effects," "low-frequency sound health," "vibration exposure," "human resonance frequencies." Look for studies in audiology, physiology, biophysics, and environmental health journals.
-- **Public Health Communication, Science Communication, Social Marketing**: Journals focused on public health communication (Health Communication), science communication (Public Understanding of Science), social marketing (Journal of Social Marketing).
+- **Technology Ethics and International Law**: Publications in technology ethics journals (Ethics and Information Technology), international law journals (American Journal of International Law).
+- **Scientific Literature on Infrasound and Human Health, Biophysics**: PubMed, Google Scholar searches for keywords like "infrasound effects," "low-frequency sound health," "vibration exposure," etc.
+- **Public Health Communication, Science Communication, Social Marketing**: Journals focused on public health communication (Health Communication), science communication (Public Understanding of Science), and social marketing (Social Marketing Quarterly).
 - **Industrial Audio Equipment Catalogs**: Manufacturer websites and catalogs for industrial subwoofers, vibration shakers, pneumatic sound sources.
 - **Portable Power Solutions Catalogs**: Manufacturer websites and catalogs for high-capacity batteries, portable generators, power packs.
 
@@ -201,4 +206,8 @@ This list provides categories of sources. Specific research papers often require
 
 ![Mind Map Image Here](visuals/mindmap/infrasound_mindmap.png)
 
-This comprehensive report, source material suggestions, blueprint, and mind map should provide a thorough overview of infrasound technology, addressing the various aspects you've been interested in exploring. Let me know if you have any further questions or if you'd like to delve deeper into any specific area!
+This comprehensive report, source material suggestions, blueprint, and mind map should provide a thorough overview of infrasound technology, addressing the various aspects you've been interested in.
+
+---
+
+For more detailed information, please refer to the [infrasound_technology_detailed.md](docs/infrasound_technology_detailed.md) document.
